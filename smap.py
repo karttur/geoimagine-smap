@@ -123,7 +123,6 @@ class ProcessSmap:
         WriteCSV(parser.hdfL,tmpFPN)
         return tmpFPN, headL
     
-
 class MjHTMLParser(HTMLParser):
     def SetLists(self,headL):
         self.hdfL = []
